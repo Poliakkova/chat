@@ -8,6 +8,7 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 public class Message {
+    //модель повідомлення
     private String senderName;
     private String receiverName;
     private String message;
